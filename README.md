@@ -20,9 +20,9 @@ so my changes may not be appropriate or sufficient for you, coming from the futu
 
 Confirmed with the following versions:
 
+- Ubuntu 18.04.4 LTS (Both host and all VirtualBox VMs)
 - VirtuarBox v6.1.6
 - Vagrant 2.2.7
-- Ubuntu 18.04.4 LTS
 - Kubernetes: v1.18.2
 - Containerd: 1.3.4
 - runc: v1.0.0-rc10
