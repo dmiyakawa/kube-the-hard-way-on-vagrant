@@ -5,6 +5,8 @@ This repository is just for the record and I don't have any plan to actively mai
 No images are not associated. No detailed instructions are available at this moment.
 So you won't be satisfied with this repo actually.. :-/
 
+One good thing might be this repo contains config files that actually worked with Kubernetes v1.18.2, latest as of writing.
+The original version uses v1.15.3 so a few modifications are needed to migrate to the latest version.
 Please look at each file when you want to compare your work with someone else who was successful.
 
 This is based on the nice tutorial with the similar theme in Japanese: https://qiita.com/t_ume/items/5d24b377e08669155639
