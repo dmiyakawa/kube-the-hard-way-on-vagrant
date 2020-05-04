@@ -2,4 +2,7 @@
 *.csr
 *.key
 *.crt
-.vagrant/
+.vagrant
+bin/cfssl
+bin/cfssljson
+bin/kubectl

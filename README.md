@@ -26,15 +26,21 @@ I tried this tutorial with 32GB memory machine + i7-7700 which has sufficient po
 I encountered no problem along with the physical environment (though VT-X needed to be turned on to run VirtualBox first)
 
 
-## How to use
+## How to get started
 
-Place `cfssl`, `cfssljson` and `kubectl` in `bin/` directory and include the directory in the PATH.
-Of course it is ok to just place them in /usr/local/bin as usual. I didn't want to mix those tools with the others.
+For the initial setup, run setup.sh, which will download `cfssl`, `cfssljson`, and `kubectl`
 
 ```
-$ export PATH=$(pwd)/bin:$PATH
+$ ./setup.sh
+```
+
+Then, assuming you're using zsh,
+
+```
+$ source ./activate.zsh
 $ vagrant up
 ```
+
 
 ## Example resultant status of constructed Kubernetes cluster
 
