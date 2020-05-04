@@ -34,6 +34,9 @@ I encountered no problem along with the physical environment (though VT-X needed
 
 ## How to use
 
+Place `cfssl`, `cfssljson` and `kubectl` in `bin/` directory and include the directory in the PATH.
+Of course it is ok to just place them in /usr/local/bin as usual. I didn't want to mix those tools with the others.
+
 ```
 $ export PATH=$(pwd)/bin:$PATH
 $ vagrant up
