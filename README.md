@@ -1,24 +1,18 @@
 # Kubernetes the Hard Way on Vagrant, 2020-05
 
 The misc files when I tried "Kubernetes the Hard Way" with Vagrant + VirtualBox.
-This repository is just for the record and I don't have any plan to actively maintain this.
-No images are not associated. No detailed instructions are available at this moment.
-So you won't be satisfied with this repo actually.. :-/
-
-One good thing might be this repo contains config files that actually worked with Kubernetes v1.18.2, latest as of writing.
-The original version uses v1.15.3 so a few modifications are needed to migrate to the latest version.
-Please look at each file when you want to compare your work with someone else who was successful.
 
 This is based on the nice tutorial with the similar theme in Japanese: https://qiita.com/t_ume/items/5d24b377e08669155639
 
-As a notable difference, I used the latest tools (e.g. Kubernetes v1.18.2 instead of v1.15.3).
-As you can expect it caused a few additional problems coming from the upgrades.
+This repository is just for my record, so I don't have any plan to actively maintain this.
+No VM images are not associated. No detailed instructions are available at this moment.
 
-You may see some differences or improvements for those kind of cases, possibly.
-Of course the term "latest" just means "latest as of writing", in 2020-05,
-so my changes may not be appropriate or sufficient for you, coming from the future.
+One possibly better thing compare to other similar great tutorials might be,
+this repo contains config files that actually worked with Kubernetes v1.18.2, latest as of writing (2020-05).
+The original version uses v1.15.3, so a few modifications are needed to migrate to the latest, which is bit of a headache.
+Please feel free to look at each file when you want to compare your work with someone else who was successful.
 
-Confirmed with the following versions:
+More specifically, I confirmed this project with the following software versions:
 
 - Ubuntu 18.04.4 LTS (Both host and all VirtualBox VMs)
 - VirtuarBox v6.1.6
